@@ -19,7 +19,7 @@ function App() {
     <BrowserRouter>
 
       <Routes>
-        <Route path="/homepage" element={<Homepage username={'anonymous'}/>} />
+        <Route path="/" element={<Homepage username={'anonymous'}/>} />
          <Route path="/sign-up" element={<SignUp/>} /> 
         <Route path="/sign-in" element={<SignIn/>} />
       </Routes>
