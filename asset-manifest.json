@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/comeback/static/css/main.71564246.css",
+    "main.js": "/comeback/static/js/main.4623f207.js",
+    "static/media/logo.svg": "/comeback/static/media/logo.ed1c257f06d275f529f1eb954729aa40.svg",
+    "index.html": "/comeback/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.71564246.css",
+    "static/js/main.4623f207.js"
+  ]
+}
