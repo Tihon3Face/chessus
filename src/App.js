@@ -14,7 +14,7 @@ function App() {
   // function sendCookie(username) {
   //   setCookie('username', username, { path: '/' })
   // }
-{/*sendCookie={sendCookie}*/}
+{/*sendCookie={sendCookie}*/};
   return (     
     <BrowserRouter>
 
