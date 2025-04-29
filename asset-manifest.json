@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/chessus/static/css/main.71564246.css",
-    "main.js": "/chessus/static/js/main.74822a33.js",
-    "static/media/logo.svg": "/chessus/static/media/logo.ed1c257f06d275f529f1eb954729aa40.svg",
-    "index.html": "/chessus/index.html"
+    "main.css": "/lichessus/static/css/main.71564246.css",
+    "main.js": "/lichessus/static/js/main.f3b45fe1.js",
+    "static/media/logo.svg": "/lichessus/static/media/logo.ed1c257f06d275f529f1eb954729aa40.svg",
+    "index.html": "/lichessus/index.html"
   },
   "entrypoints": [
     "static/css/main.71564246.css",
-    "static/js/main.74822a33.js"
+    "static/js/main.f3b45fe1.js"
   ]
 }

@@ -10923,7 +10923,7 @@ exports.version = "19.1.0";
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
-/******/ 		__webpack_require__.p = "/chessus/";
+/******/ 		__webpack_require__.p = "/lichessus/";
 /******/ 	})();
 /******/ 	
 /************************************************************************/
@@ -20702,7 +20702,7 @@ function getDevServerHooks() {
 function getBuildTimeHeader(request, headerName) {
   if (typeof process !== "undefined") {
     try {
-      if (({"NODE_ENV":"production","PUBLIC_URL":"/chessus","WDS_SOCKET_HOST":undefined,"WDS_SOCKET_PATH":undefined,"WDS_SOCKET_PORT":undefined,"FAST_REFRESH":true})?.IS_RR_BUILD_REQUEST === "yes") {
+      if (({"NODE_ENV":"production","PUBLIC_URL":"/lichessus","WDS_SOCKET_HOST":undefined,"WDS_SOCKET_PATH":undefined,"WDS_SOCKET_PORT":undefined,"FAST_REFRESH":true})?.IS_RR_BUILD_REQUEST === "yes") {
         return request.headers.get(headerName);
       }
     } catch (e) {}
@@ -58034,7 +58034,7 @@ function App_App(){// const [cookies, setCookie] = useCookies(['username'])
 // function sendCookie(username) {
 //   setCookie('username', username, { path: '/' })
 // }
-{/*sendCookie={sendCookie}*/};return/*#__PURE__*/(0,jsx_runtime.jsx)(BrowserRouter,{basename:"/chessus",children:/*#__PURE__*/(0,jsx_runtime.jsxs)(Routes,{children:[/*#__PURE__*/(0,jsx_runtime.jsx)(Route,{path:"/",element:/*#__PURE__*/(0,jsx_runtime.jsx)(Homepage,{username:'anonymous'})}),/*#__PURE__*/(0,jsx_runtime.jsx)(Route,{path:"/sign-up",element:/*#__PURE__*/(0,jsx_runtime.jsx)(SignUp,{})}),/*#__PURE__*/(0,jsx_runtime.jsx)(Route,{path:"/sign-in",element:/*#__PURE__*/(0,jsx_runtime.jsx)(SignIn,{})})]})});}/* harmony default export */ const src_App = (App_App);// <body class="dark coords-in simple-board zenable" data-vapid="BGr5CL0QlEYa7qW7HLqe7DFkCeTsYMLsi1Db-5Vwt1QBIs6-WxN8066AjtP8S9u-w-CbleE8xWY-qQaNEMs7sAs" data-user="t_3face" data-username="T_3Face" data-sound-set="standard" data-socket-domains="socket0.lichess.org,socket3.lichess.org,socket1.lichess.org,socket4.lichess.org,socket2.lichess.org,socket5.lichess.org" data-asset-url="https://lichess1.org" data-asset-version="KQT1bN" data-theme="dark" data-board="brown" data-piece-set="cburnett" data-board3d="Woodi" data-piece-set3d="Basic">
+{/*sendCookie={sendCookie}*/};return/*#__PURE__*/(0,jsx_runtime.jsx)(BrowserRouter,{basename:"/lichessus",children:/*#__PURE__*/(0,jsx_runtime.jsxs)(Routes,{children:[/*#__PURE__*/(0,jsx_runtime.jsx)(Route,{path:"/",element:/*#__PURE__*/(0,jsx_runtime.jsx)(Homepage,{username:'anonymous'})}),/*#__PURE__*/(0,jsx_runtime.jsx)(Route,{path:"/sign-up",element:/*#__PURE__*/(0,jsx_runtime.jsx)(SignUp,{})}),/*#__PURE__*/(0,jsx_runtime.jsx)(Route,{path:"/sign-in",element:/*#__PURE__*/(0,jsx_runtime.jsx)(SignIn,{})})]})});}/* harmony default export */ const src_App = (App_App);// <body class="dark coords-in simple-board zenable" data-vapid="BGr5CL0QlEYa7qW7HLqe7DFkCeTsYMLsi1Db-5Vwt1QBIs6-WxN8066AjtP8S9u-w-CbleE8xWY-qQaNEMs7sAs" data-user="t_3face" data-username="T_3Face" data-sound-set="standard" data-socket-domains="socket0.lichess.org,socket3.lichess.org,socket1.lichess.org,socket4.lichess.org,socket2.lichess.org,socket5.lichess.org" data-asset-url="https://lichess1.org" data-asset-version="KQT1bN" data-theme="dark" data-board="brown" data-piece-set="cburnett" data-board3d="Woodi" data-piece-set3d="Basic">
 //     <form id="blind-mode" action="/run/toggle-blind-mode" method="POST">
 //         <input type="hidden" name="enable" value="1"/>
 //         <input type="hidden" name="redirect" value="/tv"/>
