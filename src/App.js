@@ -16,7 +16,7 @@ function App() {
   // }
 {/*sendCookie={sendCookie}*/};
   return (     
-    <BrowserRouter basename="/chessus">
+    <BrowserRouter basename="/lichessus">
 
       <Routes>
         <Route path="/" element={<Homepage username={'anonymous'}/>} />
