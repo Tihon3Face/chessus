@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/comeback/static/css/main.71564246.css",
-    "main.js": "/comeback/static/js/main.b0ce628b.js",
-    "static/media/logo.svg": "/comeback/static/media/logo.ed1c257f06d275f529f1eb954729aa40.svg",
-    "index.html": "/comeback/index.html"
+    "main.css": "/chessus/static/css/main.71564246.css",
+    "main.js": "/chessus/static/js/main.ac5b89fd.js",
+    "static/media/logo.svg": "/chessus/static/media/logo.ed1c257f06d275f529f1eb954729aa40.svg",
+    "index.html": "/chessus/index.html"
   },
   "entrypoints": [
     "static/css/main.71564246.css",
-    "static/js/main.b0ce628b.js"
+    "static/js/main.ac5b89fd.js"
   ]
 }

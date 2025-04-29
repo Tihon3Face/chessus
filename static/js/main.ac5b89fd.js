@@ -10923,7 +10923,7 @@ exports.version = "19.1.0";
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
-/******/ 		__webpack_require__.p = "/comeback/";
+/******/ 		__webpack_require__.p = "/chessus/";
 /******/ 	})();
 /******/ 	
 /************************************************************************/
@@ -20702,7 +20702,7 @@ function getDevServerHooks() {
 function getBuildTimeHeader(request, headerName) {
   if (typeof process !== "undefined") {
     try {
-      if (({"NODE_ENV":"production","PUBLIC_URL":"/comeback","WDS_SOCKET_HOST":undefined,"WDS_SOCKET_PATH":undefined,"WDS_SOCKET_PORT":undefined,"FAST_REFRESH":true})?.IS_RR_BUILD_REQUEST === "yes") {
+      if (({"NODE_ENV":"production","PUBLIC_URL":"/chessus","WDS_SOCKET_HOST":undefined,"WDS_SOCKET_PATH":undefined,"WDS_SOCKET_PORT":undefined,"FAST_REFRESH":true})?.IS_RR_BUILD_REQUEST === "yes") {
         return request.headers.get(headerName);
       }
     } catch (e) {}
